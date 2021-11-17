@@ -1,0 +1,15 @@
+#generate{
+    background-color: #51FF5A;
+    border-radius: 14px;
+    border: none;
+    padding: 14px 14px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+#generate:hover{
+    background-color: #67D26C;
+}
+#generate:active{
+    background-color: darkslategray;
+}
