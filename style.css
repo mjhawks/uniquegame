@@ -1,5 +1,5 @@
 #generate{
-    background-color: #51FF5A;
+    background-color: #c9cba3;
     border-radius: 14px;
     border: none;
     padding: 14px 14px;
@@ -7,9 +7,31 @@
     font-size: large;
     font-weight: bold;
 }
+body{
+    background-color: #472d30;
+}
 #generate:hover{
-    background-color: #67D26C;
+    background-color: #ffe1a8;
 }
 #generate:active{
-    background-color: darkslategray;
+    background-color: #723d46;
+}
+td{
+    background-color: #ffe1a8;
+    border-radius: 5px;
+    animation-name: drawboard;
+    animation-duration: 1s;
+    width: 80px;
+    height:80px;
+}
+td:hover{
+    background-color: #e26d5c;
+}
+td:active{
+    background-color: #472d30;
+}
+@keyframes drawboard {
+    0% {background-color: #472d30;}
+    25% {background-color: #e26d5c;}
+    100% {background-color: #ffe1a8;}
 }
